@@ -13,7 +13,7 @@ export const SHeader = styled.header`
     display: flex;
     align-items: center;
     img {
-      padding: 0.3rem;
+      padding: 0 0.5rem;
     }
   }
 `
@@ -23,9 +23,9 @@ export const NavBar = styled.nav`
   display: flex;
   align-items: center;
   a {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     text-decoration: none;
-    color: ${colors.black};
+    color: ${colors.secondary};
   }
   a:hover {
     font-weight: bold;
