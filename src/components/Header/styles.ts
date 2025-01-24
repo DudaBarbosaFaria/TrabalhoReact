@@ -8,6 +8,7 @@ export const SHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   border-bottom: 0.5rem solid ${colors.primary};
+  background-color: ${colors.secondary};
   height: 5rem;
   figure {
     display: flex;
@@ -25,7 +26,7 @@ export const NavBar = styled.nav`
   a {
     margin: 0 0.5rem;
     text-decoration: none;
-    color: ${colors.secondary};
+    color: ${colors.primary};
   }
   a:hover {
     font-weight: bold;
